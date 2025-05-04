@@ -1,10 +1,9 @@
+ipykernel
 numpy
-pandas
-scikit-learn
 seaborn
+pandas
 matplotlib
-scipy
-xgboost
-lightgbm
+scikit-learn
 catboost
-tensorflow
+imbalanced-learn
+
