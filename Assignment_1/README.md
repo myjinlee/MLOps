@@ -5,3 +5,10 @@ A Simple ML Project
  • Search and prepare the dataset to solve the problem with ML methods
  • Design and implement a ML model
  • Evaluate the ML model
+
+----------------------------------------------------------------------------------------
+
+### requirment.txt 
+- pip install -r requirment.txt
+- and then open VScode (write [code .] at cmd)
+
