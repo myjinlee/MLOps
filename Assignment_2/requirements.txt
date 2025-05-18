@@ -1,0 +1,9 @@
+scikit-learn==1.6.1
+seaborn==0.13.2
+numpy==1.26.4
+pandas==2.2.3
+imbalanced-learn==0.13.0
+ipykernel==6.29.5
+matplotlib==3.10.3
+mljar-supervised==1.1.17
+catboost==1.2.8
