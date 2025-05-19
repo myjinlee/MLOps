@@ -1,0 +1,425 @@
+{
+    "uid": "00b3c14c-a544-4b54-a3dd-061533145665",
+    "name": "105_CatBoost",
+    "preprocessing": [
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "105_CatBoost\\kmeans_fold_0.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_auc"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "105_CatBoost\\kmeans_fold_1.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_auc"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "105_CatBoost\\kmeans_fold_2.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_auc"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "105_CatBoost\\kmeans_fold_3.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_auc"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "105_CatBoost\\kmeans_fold_4.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_auc"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "539eebcc-7338-4367-a0e8-fa56ddd2a208",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "eval_metric": "AUC",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 31
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "94d39c46-172a-4d29-b76f-7ef5d0416f85",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "eval_metric": "AUC",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 28
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "ebb473b7-592a-4281-9c29-f7115c58898d",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "eval_metric": "AUC",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 30
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "d31d147b-bbd9-49f7-af2c-5c2b17453094",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "eval_metric": "AUC",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 74
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "226c4a91-1cc9-40bd-b44e-36c532d17248",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "eval_metric": "AUC",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 16
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "kmeans_features": {
+                "results_path": "AutoML_results_compete_auc"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_results_compete_auc\\X.data",
+            "y_path": "AutoML_results_compete_auc\\y.data",
+            "results_path": "AutoML_results_compete_auc",
+            "k_folds": 5
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "learning_rate": 0.05,
+            "depth": 8,
+            "rsm": 0.9,
+            "loss_function": "Logloss",
+            "eval_metric": "AUC",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "105_CatBoost",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "105_CatBoost\\learner_fold_0.catboost",
+        "105_CatBoost\\learner_fold_1.catboost",
+        "105_CatBoost\\learner_fold_2.catboost",
+        "105_CatBoost\\learner_fold_3.catboost",
+        "105_CatBoost\\learner_fold_4.catboost"
+    ],
+    "predictions_fname": "105_CatBoost\\predictions_out_of_folds.csv",
+    "metric_name": "auc",
+    "final_loss": "-0.9852405560534696",
+    "train_time": 32.625133991241455,
+    "is_stacked": false,
+    "joblib_version": "1.5.0",
+    "threshold": 0.3468286835508391
+}

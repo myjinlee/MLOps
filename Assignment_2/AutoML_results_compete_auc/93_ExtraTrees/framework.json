@@ -1,0 +1,213 @@
+{
+    "uid": "b5731c12-14cc-4c74-9562-3df1f8303c64",
+    "name": "93_ExtraTrees",
+    "preprocessing": [
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "4797d0a1-4c7d-456f-aabe-cdade5886ee6",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "criterion": "entropy",
+                "max_features": 0.6,
+                "min_samples_split": 20,
+                "max_depth": 4,
+                "eval_metric_name": "auc",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "d57ae21f-ae2d-4be5-87cd-92a2a9e71313",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "criterion": "entropy",
+                "max_features": 0.6,
+                "min_samples_split": 20,
+                "max_depth": 4,
+                "eval_metric_name": "auc",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "ec86fb3c-e934-40e7-ab58-0044edd7e205",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "criterion": "entropy",
+                "max_features": 0.6,
+                "min_samples_split": 20,
+                "max_depth": 4,
+                "eval_metric_name": "auc",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "c2fae126-f383-4a4c-84b2-52a9350e7c38",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "criterion": "entropy",
+                "max_features": 0.6,
+                "min_samples_split": 20,
+                "max_depth": 4,
+                "eval_metric_name": "auc",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "7502f73e-3e20-4379-bc72-147423b6d232",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "criterion": "entropy",
+                "max_features": 0.6,
+                "min_samples_split": 20,
+                "max_depth": 4,
+                "eval_metric_name": "auc",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_results_compete_auc\\X.data",
+            "y_path": "AutoML_results_compete_auc\\y.data",
+            "results_path": "AutoML_results_compete_auc",
+            "k_folds": 5
+        },
+        "learner": {
+            "model_type": "Extra Trees",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1242,
+            "criterion": "entropy",
+            "max_features": 0.6,
+            "min_samples_split": 20,
+            "max_depth": 4,
+            "eval_metric_name": "auc",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "93_ExtraTrees",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "93_ExtraTrees\\learner_fold_0.extra_trees",
+        "93_ExtraTrees\\learner_fold_1.extra_trees",
+        "93_ExtraTrees\\learner_fold_2.extra_trees",
+        "93_ExtraTrees\\learner_fold_3.extra_trees",
+        "93_ExtraTrees\\learner_fold_4.extra_trees"
+    ],
+    "predictions_fname": "93_ExtraTrees\\predictions_out_of_folds.csv",
+    "metric_name": "auc",
+    "final_loss": "-0.9791479948894949",
+    "train_time": 16.672382593154907,
+    "is_stacked": false,
+    "joblib_version": "1.5.0",
+    "threshold": 0.652585538208975
+}

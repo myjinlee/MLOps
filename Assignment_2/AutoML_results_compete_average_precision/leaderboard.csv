@@ -1,0 +1,138 @@
+name,model_type,metric_type,metric_value,train_time
+1_DecisionTree,Decision Tree,average_precision,0.9384906209102806,10.73
+2_DecisionTree,Decision Tree,average_precision,0.9849896480331263,2.06
+3_DecisionTree,Decision Tree,average_precision,0.9849896480331263,2.22
+4_Linear,Linear,average_precision,0.9928985507246375,5.19
+5_Default_LightGBM,LightGBM,average_precision,0.9999999999999999,3.3
+6_Default_Xgboost,Xgboost,average_precision,1.0,3.4
+7_Default_CatBoost,CatBoost,average_precision,0.9999999999999998,4.45
+8_Default_NeuralNetwork,Neural Network,average_precision,0.9851566152407665,2.94
+9_Default_RandomForest,Random Forest,average_precision,0.9899355877616748,3.51
+10_Default_ExtraTrees,Extra Trees,average_precision,0.9861548694251907,3.23
+11_Default_NearestNeighbors,Nearest Neighbors,average_precision,1.0,2.6
+21_LightGBM,LightGBM,average_precision,0.9999999999999999,3.26
+12_Xgboost,Xgboost,average_precision,0.9999999999999998,3.49
+30_CatBoost,CatBoost,average_precision,0.9999999999999999,4.06
+39_RandomForest,Random Forest,average_precision,1.0,4.79
+48_ExtraTrees,Extra Trees,average_precision,0.9965217391304348,7.05
+57_NeuralNetwork,Neural Network,average_precision,0.9868698129567693,5.64
+66_NearestNeighbors,Nearest Neighbors,average_precision,0.9963768115942029,4.88
+22_LightGBM,LightGBM,average_precision,0.9999999999999999,5.6
+13_Xgboost,Xgboost,average_precision,1.0,5.15
+31_CatBoost,CatBoost,average_precision,0.9999999999999999,6.14
+40_RandomForest,Random Forest,average_precision,0.9965217391304346,5.76
+49_ExtraTrees,Extra Trees,average_precision,0.9981884057971014,5.72
+58_NeuralNetwork,Neural Network,average_precision,0.989855072463768,5.65
+67_NearestNeighbors,Nearest Neighbors,average_precision,1.0,4.31
+23_LightGBM,LightGBM,average_precision,0.9999999999999999,5.91
+14_Xgboost,Xgboost,average_precision,0.9891178323881537,5.69
+32_CatBoost,CatBoost,average_precision,1.0,6.64
+41_RandomForest,Random Forest,average_precision,0.9782497310852698,6.08
+50_ExtraTrees,Extra Trees,average_precision,0.9711798318603612,5.51
+59_NeuralNetwork,Neural Network,average_precision,0.9886128364389233,5.67
+68_NearestNeighbors,Nearest Neighbors,average_precision,1.0,4.44
+24_LightGBM,LightGBM,average_precision,0.9999999999999999,5.69
+15_Xgboost,Xgboost,average_precision,0.5,3.95
+33_CatBoost,CatBoost,average_precision,0.9999999999999999,6.83
+42_RandomForest,Random Forest,average_precision,0.9899355877616746,6.79
+51_ExtraTrees,Extra Trees,average_precision,0.9928985507246377,5.98
+60_NeuralNetwork,Neural Network,average_precision,0.9832015810276677,5.31
+69_NearestNeighbors,Nearest Neighbors,average_precision,0.9963768115942029,4.8
+25_LightGBM,LightGBM,average_precision,0.9999999999999999,5.57
+16_Xgboost,Xgboost,average_precision,0.5,3.87
+34_CatBoost,CatBoost,average_precision,1.0,7.08
+43_RandomForest,Random Forest,average_precision,0.9935587761674717,6.93
+52_ExtraTrees,Extra Trees,average_precision,0.9891178323881538,6.66
+61_NeuralNetwork,Neural Network,average_precision,0.903669684128096,6.62
+70_NearestNeighbors,Nearest Neighbors,average_precision,1.0,5.73
+26_LightGBM,LightGBM,average_precision,0.9965217391304348,6.71
+17_Xgboost,Xgboost,average_precision,0.9062514911888986,5.93
+35_CatBoost,CatBoost,average_precision,0.9999999999999998,7.04
+44_RandomForest,Random Forest,average_precision,0.9863123993558776,5.57
+53_ExtraTrees,Extra Trees,average_precision,0.9779856249610502,5.61
+62_NeuralNetwork,Neural Network,average_precision,0.9735207584177834,5.84
+71_NearestNeighbors,Nearest Neighbors,average_precision,0.9963768115942029,4.74
+27_LightGBM,LightGBM,average_precision,0.9999999999999998,5.67
+18_Xgboost,Xgboost,average_precision,0.9899355877616747,5.67
+36_CatBoost,CatBoost,average_precision,0.9999999999999999,7.27
+45_RandomForest,Random Forest,average_precision,0.9899355877616747,5.91
+54_ExtraTrees,Extra Trees,average_precision,0.9868698129567695,5.57
+63_NeuralNetwork,Neural Network,average_precision,0.987964713295526,5.79
+72_NearestNeighbors,Nearest Neighbors,average_precision,1.0,4.75
+28_LightGBM,LightGBM,average_precision,1.0,5.56
+19_Xgboost,Xgboost,average_precision,0.5,4.32
+37_CatBoost,CatBoost,average_precision,1.0,6.88
+46_RandomForest,Random Forest,average_precision,0.9981884057971013,6.81
+55_ExtraTrees,Extra Trees,average_precision,0.9965217391304348,5.51
+64_NeuralNetwork,Neural Network,average_precision,0.985933503836317,5.42
+29_LightGBM,LightGBM,average_precision,0.9999999999999998,5.55
+20_Xgboost,Xgboost,average_precision,0.9999999999999999,5.91
+38_CatBoost,CatBoost,average_precision,0.9999999999999998,7.52
+47_RandomForest,Random Forest,average_precision,0.9965217391304348,7.34
+56_ExtraTrees,Extra Trees,average_precision,0.9928985507246377,6.81
+65_NeuralNetwork,Neural Network,average_precision,0.9835624123422158,7.38
+72_NearestNeighbors_GoldenFeatures,Nearest Neighbors,average_precision,1.0,16.74
+32_CatBoost_GoldenFeatures,CatBoost,average_precision,0.9999999999999998,8.01
+68_NearestNeighbors_GoldenFeatures,Nearest Neighbors,average_precision,1.0,5.65
+72_NearestNeighbors_KMeansFeatures,Nearest Neighbors,average_precision,1.0,5.82
+32_CatBoost_KMeansFeatures,CatBoost,average_precision,0.9999999999999999,9.01
+68_NearestNeighbors_KMeansFeatures,Nearest Neighbors,average_precision,1.0,6.93
+68_NearestNeighbors_KMeansFeatures_RandomFeature,Nearest Neighbors,average_precision,1.0,7.15
+73_NearestNeighbors,Nearest Neighbors,average_precision,1.0,7.21
+74_LightGBM,LightGBM,average_precision,1.0,7.08
+75_LightGBM,LightGBM,average_precision,1.0,6.54
+76_CatBoost,CatBoost,average_precision,1.0,7.25
+77_CatBoost,CatBoost,average_precision,1.0,7.42
+78_CatBoost,CatBoost,average_precision,1.0,7.47
+79_CatBoost,CatBoost,average_precision,1.0,7.75
+80_CatBoost,CatBoost,average_precision,0.9999999999999999,7.94
+81_CatBoost,CatBoost,average_precision,0.9999999999999999,8.21
+82_Xgboost,Xgboost,average_precision,0.9999999999999999,6.87
+83_RandomForest,Random Forest,average_precision,0.9965217391304348,6.99
+84_Xgboost,Xgboost,average_precision,0.9999999999999999,6.75
+85_LightGBM,LightGBM,average_precision,0.9999999999999999,6.79
+86_LightGBM,LightGBM,average_precision,0.9999999999999999,6.89
+87_Xgboost,Xgboost,average_precision,1.0,6.59
+88_Xgboost,Xgboost,average_precision,0.9999999999999998,6.87
+89_ExtraTrees,Extra Trees,average_precision,0.9965217391304348,7.24
+90_RandomForest,Random Forest,average_precision,0.9965217391304347,6.68
+91_ExtraTrees,Extra Trees,average_precision,0.9928985507246377,7.29
+92_RandomForest,Random Forest,average_precision,0.9965217391304348,7.28
+93_ExtraTrees,Extra Trees,average_precision,0.9965217391304348,7.4
+94_NeuralNetwork,Neural Network,average_precision,0.9981884057971013,7.29
+95_NeuralNetwork,Neural Network,average_precision,0.9887798036465636,7.28
+96_NeuralNetwork,Neural Network,average_precision,0.9928985507246375,7.01
+97_DecisionTree,Decision Tree,average_precision,0.852107194484599,6.22
+98_LightGBM,LightGBM,average_precision,1.0,7.72
+99_LightGBM,LightGBM,average_precision,1.0,7.2
+100_NearestNeighbors,Nearest Neighbors,average_precision,1.0,5.9
+101_CatBoost,CatBoost,average_precision,0.9999999999999998,7.88
+102_CatBoost,CatBoost,average_precision,0.9999999999999999,7.99
+103_CatBoost,CatBoost,average_precision,0.9999999999999999,7.66
+104_CatBoost,CatBoost,average_precision,0.9999999999999999,8.84
+105_NearestNeighbors,Nearest Neighbors,average_precision,1.0,6.74
+106_NearestNeighbors,Nearest Neighbors,average_precision,1.0,6.74
+107_LightGBM,LightGBM,average_precision,1.0,7.8
+108_LightGBM,LightGBM,average_precision,1.0,8.05
+109_Xgboost,Xgboost,average_precision,0.9999999999999999,7.77
+110_LightGBM,LightGBM,average_precision,1.0,7.49
+111_LightGBM,LightGBM,average_precision,1.0,7.46
+112_Xgboost,Xgboost,average_precision,0.9999999999999998,7.78
+113_Xgboost,Xgboost,average_precision,0.9999999999999998,7.86
+114_RandomForest,Random Forest,average_precision,1.0,7.86
+115_RandomForest,Random Forest,average_precision,0.9965217391304346,8.12
+116_ExtraTrees,Extra Trees,average_precision,0.9965217391304348,7.99
+117_ExtraTrees,Extra Trees,average_precision,0.9935587761674718,7.48
+118_RandomForest,Random Forest,average_precision,0.9946313799621926,7.97
+119_RandomForest,Random Forest,average_precision,0.9899355877616747,8.13
+120_ExtraTrees,Extra Trees,average_precision,1.0,7.56
+121_ExtraTrees,Extra Trees,average_precision,0.9886128364389234,8.0
+122_ExtraTrees,Extra Trees,average_precision,0.9965217391304348,7.81
+123_ExtraTrees,Extra Trees,average_precision,0.9965217391304348,8.0
+124_RandomForest,Random Forest,average_precision,0.9965217391304347,8.51
+125_RandomForest,Random Forest,average_precision,0.9935587761674719,8.71
+126_NeuralNetwork,Neural Network,average_precision,0.9887798036465636,8.63
+127_DecisionTree,Decision Tree,average_precision,0.9710144927536232,7.46
+128_DecisionTree,Decision Tree,average_precision,0.9710144927536232,6.91
+129_DecisionTree,Decision Tree,average_precision,0.9384906209102806,7.39
+Ensemble,Ensemble,average_precision,1.0,33.77

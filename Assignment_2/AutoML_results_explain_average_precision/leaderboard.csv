@@ -1,0 +1,8 @@
+name,model_type,metric_type,metric_value,train_time
+1_Baseline,Baseline,average_precision,0.5043478260869565,1.57
+2_DecisionTree,Decision Tree,average_precision,0.9227001063475684,3.02
+3_Linear,Linear,average_precision,0.986073005653194,3.88
+4_Default_Xgboost,Xgboost,average_precision,1.0,4.43
+5_Default_NeuralNetwork,Neural Network,average_precision,0.9923158223660026,2.77
+6_Default_RandomForest,Random Forest,average_precision,0.9868954010726928,3.49
+Ensemble,Ensemble,average_precision,1.0,1.56

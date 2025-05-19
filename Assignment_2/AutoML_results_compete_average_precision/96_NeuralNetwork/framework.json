@@ -1,0 +1,153 @@
+{
+    "uid": "f8bf1e2a-1ce9-4648-a51b-d8815904e4ff",
+    "name": "96_NeuralNetwork",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4889858137257901,
+                        6.880880461821064,
+                        0.4973951849640787,
+                        0.47525734578875883,
+                        0.47525734578875883
+                    ],
+                    "mean": [
+                        0.6043689320388349,
+                        62.172330097087375,
+                        0.5509708737864077,
+                        0.6553398058252428,
+                        0.6553398058252428
+                    ],
+                    "var": [
+                        0.23910712602507306,
+                        47.34651592987087,
+                        0.24740197002545006,
+                        0.2258695447261759,
+                        0.22586954472617587
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "d12ed156-267c-4b9e-b63d-f8211e81dd41",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "GENDER": [
+                    "scale_normal"
+                ],
+                "AGE": [
+                    "scale_normal"
+                ],
+                "SMOKING": [
+                    "scale_normal"
+                ],
+                "FATIGUE ": [
+                    "scale_normal"
+                ],
+                "SHORTNESS OF BREATH": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_results_compete_average_precision\\X.data",
+            "y_path": "AutoML_results_compete_average_precision\\y.data",
+            "results_path": "AutoML_results_compete_average_precision"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1241,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.01,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "96_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "96_NeuralNetwork\\learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "96_NeuralNetwork\\predictions_validation.csv",
+    "metric_name": "average_precision",
+    "final_loss": "-0.9928985507246375",
+    "train_time": 5.629628419876099,
+    "is_stacked": false,
+    "joblib_version": "1.5.0",
+    "threshold": 0.16629316078304077
+}

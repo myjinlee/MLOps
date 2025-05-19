@@ -1,0 +1,259 @@
+{
+    "uid": "1be147df-e0d7-406b-b956-c77278c4da89",
+    "name": "72_NearestNeighbors_KMeansFeatures",
+    "preprocessing": [
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "72_NearestNeighbors_KMeansFeatures\\kmeans_fold_0.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "scale": [
+                {
+                    "scale": [
+                        0.4889858137257901,
+                        6.880880461821064,
+                        0.4973951849640787,
+                        0.47525734578875883,
+                        0.47525734578875883,
+                        0.5658217419580891,
+                        1.6105326128894228,
+                        1.1918796015336388,
+                        0.6512931077499412,
+                        1.1919026775289525,
+                        0.8323392700758213,
+                        0.7730324721896485,
+                        1.7012524843180383,
+                        0.7203142714038844,
+                        0.7027198305851331,
+                        1.0046567185446895,
+                        1.0905821680233936,
+                        0.9309400625278871,
+                        0.8601997946444684,
+                        0.7698072569576107,
+                        3.9843103548388554
+                    ],
+                    "mean": [
+                        0.6043689320388349,
+                        62.172330097087375,
+                        0.5509708737864077,
+                        0.6553398058252428,
+                        0.6553398058252428,
+                        4.868754799319855,
+                        4.514871881647616,
+                        5.36060170745323,
+                        4.528334830267862,
+                        5.247544797019591,
+                        4.737584892196261,
+                        4.811664642176174,
+                        4.314258864166959,
+                        4.653578946279975,
+                        4.972888717263362,
+                        4.7766224847039735,
+                        4.856720304652095,
+                        5.0602416143088504,
+                        4.938617686575166,
+                        4.937510399630243,
+                        6.864077669902913
+                    ],
+                    "var": [
+                        0.23910712602507306,
+                        47.34651592987087,
+                        0.24740197002545006,
+                        0.2258695447261759,
+                        0.22586954472617587,
+                        0.3201542436724864,
+                        2.5938152971804316,
+                        1.4205769845519856,
+                        0.4241827122025766,
+                        1.420631992700686,
+                        0.692788660510351,
+                        0.5975792030596397,
+                        2.894260015398297,
+                        0.5188526495881088,
+                        0.49381516029759814,
+                        1.0093351221169835,
+                        1.1893694652106057,
+                        0.8666494000194264,
+                        0.7399436867063856,
+                        0.5926032128646007,
+                        15.874729003676126
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 21,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH",
+                        "Dist_Cluster_0",
+                        "Dist_Cluster_1",
+                        "Dist_Cluster_2",
+                        "Dist_Cluster_3",
+                        "Dist_Cluster_4",
+                        "Dist_Cluster_5",
+                        "Dist_Cluster_6",
+                        "Dist_Cluster_7",
+                        "Dist_Cluster_8",
+                        "Dist_Cluster_9",
+                        "Dist_Cluster_10",
+                        "Dist_Cluster_11",
+                        "Dist_Cluster_12",
+                        "Dist_Cluster_13",
+                        "Dist_Cluster_14",
+                        "Cluster"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_average_precision"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "6ede161d-f7fc-4f9d-af06-86b476b34e1d",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1243,
+                "n_neighbors": 3,
+                "weights": "distance",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": 100000,
+            "max_cols_limit": 100
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "GENDER": [
+                    "scale_normal"
+                ],
+                "AGE": [
+                    "scale_normal"
+                ],
+                "SMOKING": [
+                    "scale_normal"
+                ],
+                "FATIGUE ": [
+                    "scale_normal"
+                ],
+                "SHORTNESS OF BREATH": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "kmeans_features": {
+                "results_path": "AutoML_results_compete_average_precision"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_results_compete_average_precision\\X.data",
+            "y_path": "AutoML_results_compete_average_precision\\y.data",
+            "results_path": "AutoML_results_compete_average_precision"
+        },
+        "learner": {
+            "model_type": "Nearest Neighbors",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1243,
+            "n_neighbors": 3,
+            "weights": "distance",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "72_NearestNeighbors_KMeansFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "72_NearestNeighbors_KMeansFeatures\\learner_fold_0.k_neighbors"
+    ],
+    "predictions_fname": "72_NearestNeighbors_KMeansFeatures\\predictions_validation.csv",
+    "metric_name": "average_precision",
+    "final_loss": "-1.0",
+    "train_time": 4.4776611328125,
+    "is_stacked": false,
+    "joblib_version": "1.5.0",
+    "threshold": 0.0
+}

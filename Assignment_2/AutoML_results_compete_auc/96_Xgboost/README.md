@@ -1,0 +1,103 @@
+# Summary of 96_Xgboost
+
+[<< Go back](../README.md)
+
+
+## Extreme Gradient Boosting (Xgboost)
+- **n_jobs**: -1
+- **objective**: binary:logistic
+- **eta**: 0.05
+- **max_depth**: 7
+- **min_child_weight**: 1
+- **subsample**: 0.8
+- **colsample_bytree**: 0.9
+- **eval_metric**: auc
+- **explain_level**: 0
+
+## Validation
+ - **validation_type**: kfold
+ - **shuffle**: True
+ - **stratify**: True
+ - **k_folds**: 5
+
+## Optimized metric
+auc
+
+## Training time
+
+21.6 seconds
+
+## Metric details
+|           |    score |    threshold |
+|:----------|---------:|-------------:|
+| logloss   | 0.268863 | nan          |
+| auc       | 0.973351 | nan          |
+| f1        | 0.962472 |   0.451425   |
+| accuracy  | 0.962882 |   0.451425   |
+| precision | 1        |   0.94138    |
+| recall    | 1        |   0.00118095 |
+| mcc       | 0.925985 |   0.451425   |
+
+
+## Metric details with threshold from accuracy metric
+|           |    score |   threshold |
+|:----------|---------:|------------:|
+| logloss   | 0.268863 |  nan        |
+| auc       | 0.973351 |  nan        |
+| f1        | 0.962472 |    0.451425 |
+| accuracy  | 0.962882 |    0.451425 |
+| precision | 0.973214 |    0.451425 |
+| recall    | 0.951965 |    0.451425 |
+| mcc       | 0.925985 |    0.451425 |
+
+
+## Confusion matrix (at threshold=0.451425)
+|              |   Predicted as 0 |   Predicted as 1 |
+|:-------------|-----------------:|-----------------:|
+| Labeled as 0 |              223 |                6 |
+| Labeled as 1 |               11 |              218 |
+
+## Learning curves
+![Learning curves](learning_curves.png)
+## Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+
+## Normalized Confusion Matrix
+
+![Normalized Confusion Matrix](confusion_matrix_normalized.png)
+
+
+## ROC Curve
+
+![ROC Curve](roc_curve.png)
+
+
+## Kolmogorov-Smirnov Statistic
+
+![Kolmogorov-Smirnov Statistic](ks_statistic.png)
+
+
+## Precision-Recall Curve
+
+![Precision-Recall Curve](precision_recall_curve.png)
+
+
+## Calibration Curve
+
+![Calibration Curve](calibration_curve_curve.png)
+
+
+## Cumulative Gains Curve
+
+![Cumulative Gains Curve](cumulative_gains_curve.png)
+
+
+## Lift Curve
+
+![Lift Curve](lift_curve.png)
+
+
+
+[<< Go back](../README.md)

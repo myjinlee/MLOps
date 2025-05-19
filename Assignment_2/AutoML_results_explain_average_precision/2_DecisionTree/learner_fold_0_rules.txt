@@ -1,0 +1,14 @@
+if (ALLERGY  <= 0.5) and (SWALLOWING DIFFICULTY <= 0.5) and (ALCOHOL CONSUMING <= 0.5) then class: 0 (proba: 91.3%) | based on 138 samples
+
+if (ALLERGY  > 0.5) and (YELLOW_FINGERS <= 0.5) and (ALCOHOL CONSUMING > 0.5) then class: 1 (proba: 85.0%) | based on 60 samples
+
+if (ALLERGY  > 0.5) and (YELLOW_FINGERS > 0.5) then class: 1 (proba: 100.0%) | based on 57 samples
+
+if (ALLERGY  <= 0.5) and (SWALLOWING DIFFICULTY > 0.5) and (FATIGUE  <= 0.5) then class: 0 (proba: 60.61%) | based on 33 samples
+
+if (ALLERGY  <= 0.5) and (SWALLOWING DIFFICULTY > 0.5) and (FATIGUE  > 0.5) then class: 1 (proba: 100.0%) | based on 26 samples
+
+if (ALLERGY  <= 0.5) and (SWALLOWING DIFFICULTY <= 0.5) and (ALCOHOL CONSUMING > 0.5) then class: 1 (proba: 52.94%) | based on 17 samples
+
+if (ALLERGY  > 0.5) and (YELLOW_FINGERS <= 0.5) and (ALCOHOL CONSUMING <= 0.5) then class: 0 (proba: 75.0%) | based on 12 samples
+

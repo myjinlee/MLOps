@@ -1,0 +1,609 @@
+{
+    "uid": "a678f037-1f4f-4e89-a835-fffc519143fa",
+    "name": "28_LightGBM_KMeansFeatures_SelectedFeatures",
+    "preprocessing": [
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "28_LightGBM_KMeansFeatures_SelectedFeatures\\kmeans_fold_0.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "Cluster",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_f1"
+                },
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "28_LightGBM_KMeansFeatures_SelectedFeatures\\kmeans_fold_1.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "Cluster",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_f1"
+                },
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "28_LightGBM_KMeansFeatures_SelectedFeatures\\kmeans_fold_2.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "Cluster",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_f1"
+                },
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "28_LightGBM_KMeansFeatures_SelectedFeatures\\kmeans_fold_3.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "Cluster",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_f1"
+                },
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Cluster"
+                ],
+                "result_file": "28_LightGBM_KMeansFeatures_SelectedFeatures\\kmeans_fold_4.joblib",
+                "input_columns": [
+                    "GENDER",
+                    "AGE",
+                    "SMOKING",
+                    "YELLOW_FINGERS",
+                    "ANXIETY",
+                    "PEER_PRESSURE",
+                    "CHRONIC DISEASE",
+                    "FATIGUE ",
+                    "ALLERGY ",
+                    "WHEEZING",
+                    "ALCOHOL CONSUMING",
+                    "COUGHING",
+                    "SHORTNESS OF BREATH",
+                    "SWALLOWING DIFFICULTY",
+                    "CHEST PAIN"
+                ]
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "Cluster",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_results_compete_f1"
+                },
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "4.6.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "aba337de-41b6-4562-8590-33caec0044c3",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.8,
+                "min_data_in_leaf": 5,
+                "metric": "custom",
+                "custom_eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "4.6.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "0b2c9d78-0dee-43df-bdba-ebd9f9ba1136",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.8,
+                "min_data_in_leaf": 5,
+                "metric": "custom",
+                "custom_eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "4.6.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "0dd285b1-2bfe-4ae7-8007-e609df8def03",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.8,
+                "min_data_in_leaf": 5,
+                "metric": "custom",
+                "custom_eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "4.6.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "a4ee1061-be38-4be0-ba09-d70828c2bf02",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.8,
+                "min_data_in_leaf": 5,
+                "metric": "custom",
+                "custom_eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "4.6.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "f00a00d2-ff22-4d49-8099-f3301f8c49d0",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.8,
+                "min_data_in_leaf": 5,
+                "metric": "custom",
+                "custom_eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "kmeans_features": {
+                "results_path": "AutoML_results_compete_f1"
+            },
+            "drop_features": [
+                "random_feature",
+                "SMOKING",
+                "ANXIETY",
+                "Cluster",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_results_compete_f1\\X.data",
+            "y_path": "AutoML_results_compete_f1\\y.data",
+            "results_path": "AutoML_results_compete_f1",
+            "k_folds": 5
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1242,
+            "objective": "binary",
+            "num_leaves": 31,
+            "learning_rate": 0.1,
+            "feature_fraction": 0.8,
+            "bagging_fraction": 0.8,
+            "min_data_in_leaf": 5,
+            "metric": "custom",
+            "custom_eval_metric_name": "f1",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "28_LightGBM_KMeansFeatures_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features_features_selection",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "28_LightGBM_KMeansFeatures_SelectedFeatures\\learner_fold_0.lightgbm",
+        "28_LightGBM_KMeansFeatures_SelectedFeatures\\learner_fold_1.lightgbm",
+        "28_LightGBM_KMeansFeatures_SelectedFeatures\\learner_fold_2.lightgbm",
+        "28_LightGBM_KMeansFeatures_SelectedFeatures\\learner_fold_3.lightgbm",
+        "28_LightGBM_KMeansFeatures_SelectedFeatures\\learner_fold_4.lightgbm"
+    ],
+    "predictions_fname": "28_LightGBM_KMeansFeatures_SelectedFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "f1",
+    "final_loss": "-0.9698275862068966",
+    "train_time": 13.739545106887817,
+    "is_stacked": false,
+    "joblib_version": "1.5.0",
+    "threshold": 0.46706582108197836
+}

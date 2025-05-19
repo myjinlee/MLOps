@@ -1,0 +1,54 @@
+{
+    "columns": [
+        "GENDER",
+        "AGE",
+        "SMOKING",
+        "YELLOW_FINGERS",
+        "ANXIETY",
+        "PEER_PRESSURE",
+        "CHRONIC DISEASE",
+        "FATIGUE ",
+        "ALLERGY ",
+        "WHEEZING",
+        "ALCOHOL CONSUMING",
+        "COUGHING",
+        "SHORTNESS OF BREATH",
+        "SWALLOWING DIFFICULTY",
+        "CHEST PAIN"
+    ],
+    "rows": 458,
+    "cols": 15,
+    "target_is_numeric": true,
+    "columns_info": {
+        "GENDER": [
+            "scale"
+        ],
+        "AGE": [
+            "scale"
+        ],
+        "SMOKING": [
+            "scale"
+        ],
+        "YELLOW_FINGERS": [],
+        "ANXIETY": [],
+        "PEER_PRESSURE": [],
+        "CHRONIC DISEASE": [],
+        "FATIGUE ": [
+            "scale"
+        ],
+        "ALLERGY ": [],
+        "WHEEZING": [],
+        "ALCOHOL CONSUMING": [],
+        "COUGHING": [],
+        "SHORTNESS OF BREATH": [
+            "scale"
+        ],
+        "SWALLOWING DIFFICULTY": [],
+        "CHEST PAIN": []
+    },
+    "target_info": [],
+    "n_features": 15,
+    "is_sample_weighted": false,
+    "is_fairness_applied": false,
+    "n_classes": 2
+}

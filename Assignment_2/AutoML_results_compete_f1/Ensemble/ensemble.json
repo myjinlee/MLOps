@@ -1,0 +1,17 @@
+{
+    "name": "Ensemble",
+    "ml_task": "binary_classification",
+    "optimize_metric": "f1",
+    "selected_models": [
+        {
+            "model": "28_LightGBM_KMeansFeatures_BoostOnErrors",
+            "repeat": 1.0
+        }
+    ],
+    "predictions_fname": "Ensemble\\predictions_ensemble.csv",
+    "metric_name": "f1",
+    "final_loss": -0.9760348583877996,
+    "train_time": 19.397284507751465,
+    "is_stacked": false,
+    "threshold": 0.5036967834487389
+}

@@ -1,0 +1,379 @@
+{
+    "uid": "0363cfbc-7777-4a4a-b683-c3287fe5e818",
+    "name": "49_ExtraTrees_SelectedFeatures",
+    "preprocessing": [
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "SMOKING",
+                "ANXIETY",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "random_feature",
+                    "SMOKING",
+                    "ANXIETY",
+                    "Cluster",
+                    "GENDER",
+                    "SHORTNESS OF BREATH",
+                    "ALCOHOL CONSUMING",
+                    "YELLOW_FINGERS",
+                    "WHEEZING",
+                    "SWALLOWING DIFFICULTY",
+                    "PEER_PRESSURE",
+                    "COUGHING",
+                    "CHRONIC DISEASE",
+                    "CHEST PAIN"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "e95c64c1-e8da-4d53-a156-fdefd4938628",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.7,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "4e9c4bb2-963c-40cd-b2f5-0ab18b46b0d5",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.7,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "32146873-ee71-425c-a2ec-bc91b5874743",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.7,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "3993d29f-3bec-4044-97c8-bfb88dbcb4ab",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.7,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "26da2f4d-b817-4fe9-8615-7ef32cda70fc",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.7,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "random_feature",
+                "SMOKING",
+                "ANXIETY",
+                "Cluster",
+                "GENDER",
+                "SHORTNESS OF BREATH",
+                "ALCOHOL CONSUMING",
+                "YELLOW_FINGERS",
+                "WHEEZING",
+                "SWALLOWING DIFFICULTY",
+                "PEER_PRESSURE",
+                "COUGHING",
+                "CHRONIC DISEASE",
+                "CHEST PAIN"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_results_compete_f1\\X.data",
+            "y_path": "AutoML_results_compete_f1\\y.data",
+            "results_path": "AutoML_results_compete_f1",
+            "k_folds": 5
+        },
+        "learner": {
+            "model_type": "Extra Trees",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1236,
+            "criterion": "gini",
+            "max_features": 0.7,
+            "min_samples_split": 30,
+            "max_depth": 7,
+            "eval_metric_name": "f1",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "49_ExtraTrees_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "49_ExtraTrees_SelectedFeatures\\learner_fold_0.extra_trees",
+        "49_ExtraTrees_SelectedFeatures\\learner_fold_1.extra_trees",
+        "49_ExtraTrees_SelectedFeatures\\learner_fold_2.extra_trees",
+        "49_ExtraTrees_SelectedFeatures\\learner_fold_3.extra_trees",
+        "49_ExtraTrees_SelectedFeatures\\learner_fold_4.extra_trees"
+    ],
+    "predictions_fname": "49_ExtraTrees_SelectedFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "f1",
+    "final_loss": "-0.8329519450800915",
+    "train_time": 14.047850370407104,
+    "is_stacked": false,
+    "joblib_version": "1.5.0",
+    "threshold": 0.41871169895689586
+}

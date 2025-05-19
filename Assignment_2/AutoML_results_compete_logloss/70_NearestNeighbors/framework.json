@@ -1,0 +1,853 @@
+{
+    "uid": "0d2ac8f0-1104-4df1-8acf-26af31428038",
+    "name": "70_NearestNeighbors",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.49354276065348013,
+                        6.889519389974019,
+                        0.4973951849640787,
+                        0.47681666632266695,
+                        0.47681666632266695
+                    ],
+                    "mean": [
+                        0.5800970873786407,
+                        62.33495145631068,
+                        0.5509708737864077,
+                        0.6504854368932039,
+                        0.6504854368932039
+                    ],
+                    "var": [
+                        0.24358445659345837,
+                        47.46547742482798,
+                        0.24740197002545006,
+                        0.2273541332830615,
+                        0.22735413328306153
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.48949757926040893,
+                        6.690480598160872,
+                        0.49829452750268804,
+                        0.4775759142672588,
+                        0.4797727806060519
+                    ],
+                    "mean": [
+                        0.6019417475728155,
+                        62.26456310679612,
+                        0.5412621359223301,
+                        0.6480582524271845,
+                        0.6407766990291263
+                    ],
+                    "var": [
+                        0.23960788010180034,
+                        44.76253063436705,
+                        0.24829743613912714,
+                        0.22807875388820814,
+                        0.2301819210104628
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.49095768416310304,
+                        6.83770044839639,
+                        0.49687376895487906,
+                        0.47604383225607577,
+                        0.47604383225607577
+                    ],
+                    "mean": [
+                        0.5946601941747572,
+                        62.179611650485434,
+                        0.5558252427184466,
+                        0.6529126213592233,
+                        0.6529126213592233
+                    ],
+                    "var": [
+                        0.24103944763879726,
+                        46.754147422000194,
+                        0.24688354227542655,
+                        0.22661773022905082,
+                        0.22661773022905082
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4904834766928062,
+                        6.960022028404451,
+                        0.4976379308565271,
+                        0.471973493139217,
+                        0.47525734578875883
+                    ],
+                    "mean": [
+                        0.5970873786407767,
+                        62.32281553398058,
+                        0.5485436893203883,
+                        0.6650485436893204,
+                        0.6553398058252428
+                    ],
+                    "var": [
+                        0.24057404090866252,
+                        48.4419066358752,
+                        0.24764351022716563,
+                        0.2227589782260345,
+                        0.22586954472617587
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.49141944601335,
+                        6.938329578100104,
+                        0.4971404704657129,
+                        0.4797727806060519,
+                        0.48047831566070986
+                    ],
+                    "mean": [
+                        0.5922330097087378,
+                        62.19174757281554,
+                        0.5533980582524272,
+                        0.6407766990291263,
+                        0.6383495145631068
+                    ],
+                    "var": [
+                        0.24149307192006783,
+                        48.14041733433877,
+                        0.24714864737487036,
+                        0.2301819210104628,
+                        0.23085941182015277
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4923057719913678,
+                        6.617868335674497,
+                        0.49739518496407875,
+                        0.47681666632266695,
+                        0.479053909024766
+                    ],
+                    "mean": [
+                        0.587378640776699,
+                        62.08495145631068,
+                        0.5509708737864077,
+                        0.6504854368932039,
+                        0.6432038834951457
+                    ],
+                    "var": [
+                        0.24236497313601663,
+                        43.79618130832313,
+                        0.2474019700254501,
+                        0.22735413328306153,
+                        0.22949264775190878
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4904834766928062,
+                        6.998499680995892,
+                        0.4973951849640787,
+                        0.4736431424330279,
+                        0.47525734578875883
+                    ],
+                    "mean": [
+                        0.5970873786407767,
+                        62.317961165048544,
+                        0.5509708737864077,
+                        0.6601941747572816,
+                        0.6553398058252428
+                    ],
+                    "var": [
+                        0.24057404090866252,
+                        48.97899778489961,
+                        0.24740197002545006,
+                        0.22433782637383354,
+                        0.22586954472617587
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4904834766928062,
+                        6.851205298681323,
+                        0.4980875859565304,
+                        0.47977278060605194,
+                        0.47681666632266695
+                    ],
+                    "mean": [
+                        0.5970873786407767,
+                        62.20388349514563,
+                        0.5436893203883495,
+                        0.6407766990291263,
+                        0.6504854368932039
+                    ],
+                    "var": [
+                        0.24057404090866252,
+                        46.93901404467905,
+                        0.24809124328400406,
+                        0.23018192101046284,
+                        0.22735413328306153
+                    ],
+                    "n_samples_seen": 412,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4897988497235945,
+                        7.013868787161518,
+                        0.49675175624856527,
+                        0.4780595594434091,
+                        0.477310893768919
+                    ],
+                    "mean": [
+                        0.6004842615012107,
+                        62.23970944309927,
+                        0.5569007263922519,
+                        0.6464891041162227,
+                        0.648910411622276
+                    ],
+                    "var": [
+                        0.2399029131905563,
+                        49.194355363518575,
+                        0.246762307336034,
+                        0.22854094237522643,
+                        0.22782568931048428
+                    ],
+                    "n_samples_seen": 413,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.49168642027499515,
+                        6.750551481229422,
+                        0.49753008723208386,
+                        0.4765487496423262,
+                        0.477310893768919
+                    ],
+                    "mean": [
+                        0.5907990314769975,
+                        62.2179176755448,
+                        0.549636803874092,
+                        0.6513317191283293,
+                        0.648910411622276
+                    ],
+                    "var": [
+                        0.24175553588283916,
+                        45.56994530072875,
+                        0.24753618770116498,
+                        0.2270987107856645,
+                        0.22782568931048428
+                    ],
+                    "n_samples_seen": 413,
+                    "n_features_in": 5,
+                    "columns": [
+                        "GENDER",
+                        "AGE",
+                        "SMOKING",
+                        "FATIGUE ",
+                        "SHORTNESS OF BREATH"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "GENDER": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "SMOKING": [
+                        "scale_normal"
+                    ],
+                    "FATIGUE ": [
+                        "scale_normal"
+                    ],
+                    "SHORTNESS OF BREATH": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "056854df-1f8c-46a7-a8e5-3c9a0848f97d",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "92a6d22c-cb67-481a-bb2c-a1e196c9edc0",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "a7c63ee2-4495-4950-b33d-78aa0bda2530",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "f6927034-a772-4974-a481-19b772bb2b97",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "8b167e50-b569-489e-9421-8310bbef3963",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "237bf546-0775-4078-9856-3f3855ea0a96",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "a50f741c-75c6-4652-862c-a9b8ed00ebe6",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "0636b8d6-86d1-4c48-8360-3ebd8dbc7064",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "82ef553e-87fd-4688-8f77-1ec2ec5421e6",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "18721668-58ee-4ec6-9746-a6edb16cbbcf",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "n_neighbors": 3,
+                "weights": "uniform",
+                "explain_level": 0
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": 100000,
+            "max_cols_limit": 100
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "GENDER": [
+                    "scale_normal"
+                ],
+                "AGE": [
+                    "scale_normal"
+                ],
+                "SMOKING": [
+                    "scale_normal"
+                ],
+                "FATIGUE ": [
+                    "scale_normal"
+                ],
+                "SHORTNESS OF BREATH": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_results_compete_logloss\\X.data",
+            "y_path": "AutoML_results_compete_logloss\\y.data",
+            "results_path": "AutoML_results_compete_logloss",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "Nearest Neighbors",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1241,
+            "n_neighbors": 3,
+            "weights": "uniform",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "70_NearestNeighbors",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "70_NearestNeighbors\\learner_fold_0.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_1.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_2.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_3.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_4.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_5.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_6.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_7.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_8.k_neighbors",
+        "70_NearestNeighbors\\learner_fold_9.k_neighbors"
+    ],
+    "predictions_fname": "70_NearestNeighbors\\predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.5072285430347301",
+    "train_time": 15.02327585220337,
+    "is_stacked": false,
+    "joblib_version": "1.5.0",
+    "threshold": 0.0
+}
