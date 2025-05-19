@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "ALLERGY ",
+            "feature2": "PEER_PRESSURE",
+            "operation": "sum",
+            "score": 0.3828137298
+        },
+        {
+            "feature1": "SWALLOWING DIFFICULTY",
+            "feature2": "ALLERGY ",
+            "operation": "sum",
+            "score": 0.4110335137
+        },
+        {
+            "feature1": "ALCOHOL CONSUMING",
+            "feature2": "PEER_PRESSURE",
+            "operation": "sum",
+            "score": 0.4421667318
+        },
+        {
+            "feature1": "WHEEZING",
+            "feature2": "ALLERGY ",
+            "operation": "sum",
+            "score": 0.4474164444
+        },
+        {
+            "feature1": "SWALLOWING DIFFICULTY",
+            "feature2": "COUGHING",
+            "operation": "sum",
+            "score": 0.4604922019
+        },
+        {
+            "feature1": "ALLERGY ",
+            "feature2": "YELLOW_FINGERS",
+            "operation": "sum",
+            "score": 0.4712114435
+        },
+        {
+            "feature1": "CHEST PAIN",
+            "feature2": "PEER_PRESSURE",
+            "operation": "sum",
+            "score": 0.4767093283
+        },
+        {
+            "feature1": "COUGHING",
+            "feature2": "ALLERGY ",
+            "operation": "sum",
+            "score": 0.4781344292
+        },
+        {
+            "feature1": "SWALLOWING DIFFICULTY",
+            "feature2": "ALCOHOL CONSUMING",
+            "operation": "sum",
+            "score": 0.4805018541
+        },
+        {
+            "feature1": "ALCOHOL CONSUMING",
+            "feature2": "ALLERGY ",
+            "operation": "sum",
+            "score": 0.4823621216
+        }
+    ],
+    "new_columns": [
+        "ALLERGY _sum_PEER_PRESSURE",
+        "SWALLOWING DIFFICULTY_sum_ALLERGY ",
+        "ALCOHOL CONSUMING_sum_PEER_PRESSURE",
+        "WHEEZING_sum_ALLERGY ",
+        "SWALLOWING DIFFICULTY_sum_COUGHING",
+        "ALLERGY _sum_YELLOW_FINGERS",
+        "CHEST PAIN_sum_PEER_PRESSURE",
+        "COUGHING_sum_ALLERGY ",
+        "SWALLOWING DIFFICULTY_sum_ALCOHOL CONSUMING",
+        "ALCOHOL CONSUMING_sum_ALLERGY "
+    ],
+    "ml_task": "binary_classification"
+}
