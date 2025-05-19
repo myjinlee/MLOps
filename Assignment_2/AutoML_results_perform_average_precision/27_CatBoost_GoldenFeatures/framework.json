@@ -1,0 +1,633 @@
+{
+    "uid": "418f52ea-8c97-47c1-8bce-eb16e994528d",
+    "name": "27_CatBoost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.3828137298
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4110335137
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4421667318
+                    },
+                    {
+                        "feature1": "WHEEZING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4474164444
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "COUGHING",
+                        "operation": "sum",
+                        "score": 0.4604922019
+                    },
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "YELLOW_FINGERS",
+                        "operation": "sum",
+                        "score": 0.4712114435
+                    },
+                    {
+                        "feature1": "CHEST PAIN",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4767093283
+                    },
+                    {
+                        "feature1": "COUGHING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4781344292
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALCOHOL CONSUMING",
+                        "operation": "sum",
+                        "score": 0.4805018541
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4823621216
+                    }
+                ],
+                "new_columns": [
+                    "ALLERGY _sum_PEER_PRESSURE",
+                    "SWALLOWING DIFFICULTY_sum_ALLERGY ",
+                    "ALCOHOL CONSUMING_sum_PEER_PRESSURE",
+                    "WHEEZING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_COUGHING",
+                    "ALLERGY _sum_YELLOW_FINGERS",
+                    "CHEST PAIN_sum_PEER_PRESSURE",
+                    "COUGHING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_ALCOHOL CONSUMING",
+                    "ALCOHOL CONSUMING_sum_ALLERGY "
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_results_perform_average_precision",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.3828137298
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4110335137
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4421667318
+                    },
+                    {
+                        "feature1": "WHEEZING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4474164444
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "COUGHING",
+                        "operation": "sum",
+                        "score": 0.4604922019
+                    },
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "YELLOW_FINGERS",
+                        "operation": "sum",
+                        "score": 0.4712114435
+                    },
+                    {
+                        "feature1": "CHEST PAIN",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4767093283
+                    },
+                    {
+                        "feature1": "COUGHING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4781344292
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALCOHOL CONSUMING",
+                        "operation": "sum",
+                        "score": 0.4805018541
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4823621216
+                    }
+                ],
+                "new_columns": [
+                    "ALLERGY _sum_PEER_PRESSURE",
+                    "SWALLOWING DIFFICULTY_sum_ALLERGY ",
+                    "ALCOHOL CONSUMING_sum_PEER_PRESSURE",
+                    "WHEEZING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_COUGHING",
+                    "ALLERGY _sum_YELLOW_FINGERS",
+                    "CHEST PAIN_sum_PEER_PRESSURE",
+                    "COUGHING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_ALCOHOL CONSUMING",
+                    "ALCOHOL CONSUMING_sum_ALLERGY "
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_results_perform_average_precision",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.3828137298
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4110335137
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4421667318
+                    },
+                    {
+                        "feature1": "WHEEZING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4474164444
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "COUGHING",
+                        "operation": "sum",
+                        "score": 0.4604922019
+                    },
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "YELLOW_FINGERS",
+                        "operation": "sum",
+                        "score": 0.4712114435
+                    },
+                    {
+                        "feature1": "CHEST PAIN",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4767093283
+                    },
+                    {
+                        "feature1": "COUGHING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4781344292
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALCOHOL CONSUMING",
+                        "operation": "sum",
+                        "score": 0.4805018541
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4823621216
+                    }
+                ],
+                "new_columns": [
+                    "ALLERGY _sum_PEER_PRESSURE",
+                    "SWALLOWING DIFFICULTY_sum_ALLERGY ",
+                    "ALCOHOL CONSUMING_sum_PEER_PRESSURE",
+                    "WHEEZING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_COUGHING",
+                    "ALLERGY _sum_YELLOW_FINGERS",
+                    "CHEST PAIN_sum_PEER_PRESSURE",
+                    "COUGHING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_ALCOHOL CONSUMING",
+                    "ALCOHOL CONSUMING_sum_ALLERGY "
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_results_perform_average_precision",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.3828137298
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4110335137
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4421667318
+                    },
+                    {
+                        "feature1": "WHEEZING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4474164444
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "COUGHING",
+                        "operation": "sum",
+                        "score": 0.4604922019
+                    },
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "YELLOW_FINGERS",
+                        "operation": "sum",
+                        "score": 0.4712114435
+                    },
+                    {
+                        "feature1": "CHEST PAIN",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4767093283
+                    },
+                    {
+                        "feature1": "COUGHING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4781344292
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALCOHOL CONSUMING",
+                        "operation": "sum",
+                        "score": 0.4805018541
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4823621216
+                    }
+                ],
+                "new_columns": [
+                    "ALLERGY _sum_PEER_PRESSURE",
+                    "SWALLOWING DIFFICULTY_sum_ALLERGY ",
+                    "ALCOHOL CONSUMING_sum_PEER_PRESSURE",
+                    "WHEEZING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_COUGHING",
+                    "ALLERGY _sum_YELLOW_FINGERS",
+                    "CHEST PAIN_sum_PEER_PRESSURE",
+                    "COUGHING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_ALCOHOL CONSUMING",
+                    "ALCOHOL CONSUMING_sum_ALLERGY "
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_results_perform_average_precision",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.3828137298
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4110335137
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4421667318
+                    },
+                    {
+                        "feature1": "WHEEZING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4474164444
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "COUGHING",
+                        "operation": "sum",
+                        "score": 0.4604922019
+                    },
+                    {
+                        "feature1": "ALLERGY ",
+                        "feature2": "YELLOW_FINGERS",
+                        "operation": "sum",
+                        "score": 0.4712114435
+                    },
+                    {
+                        "feature1": "CHEST PAIN",
+                        "feature2": "PEER_PRESSURE",
+                        "operation": "sum",
+                        "score": 0.4767093283
+                    },
+                    {
+                        "feature1": "COUGHING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4781344292
+                    },
+                    {
+                        "feature1": "SWALLOWING DIFFICULTY",
+                        "feature2": "ALCOHOL CONSUMING",
+                        "operation": "sum",
+                        "score": 0.4805018541
+                    },
+                    {
+                        "feature1": "ALCOHOL CONSUMING",
+                        "feature2": "ALLERGY ",
+                        "operation": "sum",
+                        "score": 0.4823621216
+                    }
+                ],
+                "new_columns": [
+                    "ALLERGY _sum_PEER_PRESSURE",
+                    "SWALLOWING DIFFICULTY_sum_ALLERGY ",
+                    "ALCOHOL CONSUMING_sum_PEER_PRESSURE",
+                    "WHEEZING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_COUGHING",
+                    "ALLERGY _sum_YELLOW_FINGERS",
+                    "CHEST PAIN_sum_PEER_PRESSURE",
+                    "COUGHING_sum_ALLERGY ",
+                    "SWALLOWING DIFFICULTY_sum_ALCOHOL CONSUMING",
+                    "ALCOHOL CONSUMING_sum_ALLERGY "
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_results_perform_average_precision",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "75b5a0a7-db99-48f4-a018-56a241e25fed",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "seed": 4,
+                "eval_metric": "average_precision",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 22
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "513c9c2d-9a17-4819-8702-d3d54c593e2d",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "seed": 4,
+                "eval_metric": "average_precision",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 68
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "5c44af8f-42e2-4a86-846f-2e0a83c8743c",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "seed": 4,
+                "eval_metric": "average_precision",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 64
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "f9650fa9-2c38-4d1a-b617-a6cf55b63409",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "seed": 4,
+                "eval_metric": "average_precision",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 66
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "ef3b4585-e5b6-45da-bc54-397608658e0e",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 0.9,
+                "loss_function": "Logloss",
+                "seed": 4,
+                "eval_metric": "average_precision",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 60
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "golden_features": {
+                "results_path": "AutoML_results_perform_average_precision",
+                "ml_task": "binary_classification",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_results_perform_average_precision\\X.data",
+            "y_path": "AutoML_results_perform_average_precision\\y.data",
+            "results_path": "AutoML_results_perform_average_precision"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "learning_rate": 0.1,
+            "depth": 6,
+            "rsm": 0.9,
+            "loss_function": "Logloss",
+            "seed": 4,
+            "eval_metric": "average_precision",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 1,
+        "name": "27_CatBoost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "27_CatBoost_GoldenFeatures\\learner_fold_0.catboost",
+        "27_CatBoost_GoldenFeatures\\learner_fold_1.catboost",
+        "27_CatBoost_GoldenFeatures\\learner_fold_2.catboost",
+        "27_CatBoost_GoldenFeatures\\learner_fold_3.catboost",
+        "27_CatBoost_GoldenFeatures\\learner_fold_4.catboost"
+    ],
+    "predictions_fname": "27_CatBoost_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "average_precision",
+    "final_loss": "-0.9904398698641945",
+    "train_time": 36.23230338096619,
+    "is_stacked": false,
+    "joblib_version": "1.5.0",
+    "threshold": 0.40466012709422317,
+    "single_prediction_time": 0.03475689888000488
+}

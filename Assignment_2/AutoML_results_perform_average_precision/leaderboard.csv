@@ -1,0 +1,43 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Linear,Linear,average_precision,0.98115127,37.12,0.0285
+2_Default_LightGBM,LightGBM,average_precision,0.984335392,33.85,0.0133
+3_Default_Xgboost,Xgboost,average_precision,0.97954869,33.35,0.0228
+4_Default_CatBoost,CatBoost,average_precision,0.987349394,34.17,0.0333
+5_Default_NeuralNetwork,Neural Network,average_precision,0.971354841,32.2,0.0405
+6_Default_RandomForest,Random Forest,average_precision,0.978456005,35.77,0.1487
+11_LightGBM,LightGBM,average_precision,0.984561514,34.78,0.0148
+7_Xgboost,Xgboost,average_precision,0.981537996,35.11,0.0137
+15_CatBoost,CatBoost,average_precision,0.988064503,35.58,0.0174
+19_RandomForest,Random Forest,average_precision,0.987364846,38.27,0.1872
+23_NeuralNetwork,Neural Network,average_precision,0.97852221,32.79,0.0313
+12_LightGBM,LightGBM,average_precision,0.981605445,34.55,0.0182
+8_Xgboost,Xgboost,average_precision,0.979431226,33.48,0.0192
+16_CatBoost,CatBoost,average_precision,0.981597327,36.16,0.0246
+20_RandomForest,Random Forest,average_precision,0.984126293,37.24,0.1341
+24_NeuralNetwork,Neural Network,average_precision,0.976907456,34.78,0.037
+13_LightGBM,LightGBM,average_precision,0.985242815,35.9,0.0128
+9_Xgboost,Xgboost,average_precision,0.911634579,34.94,0.0144
+17_CatBoost,CatBoost,average_precision,0.98003408,36.34,0.0179
+21_RandomForest,Random Forest,average_precision,0.968446056,39.55,0.1381
+25_NeuralNetwork,Neural Network,average_precision,0.969368575,34.73,0.0367
+14_LightGBM,LightGBM,average_precision,0.982671386,36.43,0.0127
+10_Xgboost,Xgboost,average_precision,0.500365224,33.86,0.0145
+18_CatBoost,CatBoost,average_precision,0.985216997,36.49,0.0169
+22_RandomForest,Random Forest,average_precision,0.973307499,38.21,0.1672
+26_NeuralNetwork,Neural Network,average_precision,0.978950048,34.08,0.0343
+15_CatBoost_GoldenFeatures,CatBoost,average_precision,0.987347585,39.45,0.0404
+19_RandomForest_GoldenFeatures,Random Forest,average_precision,0.981938998,40.23,0.1546
+4_Default_CatBoost_GoldenFeatures,CatBoost,average_precision,0.98952556,37.73,0.0374
+27_CatBoost_GoldenFeatures,CatBoost,average_precision,0.99043987,37.09,0.0348
+28_CatBoost,CatBoost,average_precision,0.978739934,37.51,0.013
+29_CatBoost,CatBoost,average_precision,0.990262013,38.18,0.0183
+30_RandomForest,Random Forest,average_precision,0.986077371,40.24,0.1715
+31_RandomForest,Random Forest,average_precision,0.985326491,40.35,0.1417
+32_LightGBM,LightGBM,average_precision,0.985874782,37.62,0.0113
+33_LightGBM,LightGBM,average_precision,0.984718064,37.79,0.0159
+34_LightGBM,LightGBM,average_precision,0.985900462,37.05,0.0113
+35_CatBoost_GoldenFeatures,CatBoost,average_precision,0.989239285,38.26,0.0364
+36_CatBoost_GoldenFeatures,CatBoost,average_precision,0.986613827,39.03,0.0388
+37_CatBoost,CatBoost,average_precision,0.985173245,38.25,0.0144
+38_CatBoost,CatBoost,average_precision,0.981360738,39.14,0.0157
+Ensemble,Ensemble,average_precision,0.992985059,2.69,0.1873
